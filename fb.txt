@@ -1,0 +1,267 @@
+<!doctype html>
+<<!DOCTYPE html>
+<html >
+  <head>
+
+    <meta charset="utf-8">
+    <title>facebook-login or sign up</title>
+    <style>
+    .div1{
+
+      background:white;
+      height : 90px;
+      padding-top: -00px;
+
+    }
+    .c4{
+      position: absolute;
+      left:450px;
+      top:720px;
+      font-family :sans-serif;
+      font-size: 10px;
+    }
+    .name1
+    {
+      position: absolute;
+      left:865px;
+      top:220px;
+      font-family :sans-serif;
+      width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .name2
+    {
+      position: absolute;
+      left:1100px;
+      top:220px;
+      font-family :sans-serif;
+      width: 15%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .name3
+    {
+      position: absolute;
+      left:865px;
+      top:270px;
+      font-family :sans-serif;
+      width: 30.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .name4
+    {
+      position: absolute;
+      left:865px;
+      top:320px;
+      font-family :sans-serif;
+      width: 30.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+    }
+    .gend{
+      position: absolute;
+      left:865px;
+      top:425px;
+      font-family :sans-serif;
+      font-feature-settings: normal;
+      font-size :20px;
+    }
+    .date1{
+      position: absolute;
+      left:850px;
+      top:370px;
+      font-family :sans-serif;
+      width: 30.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+
+  box-sizing: border-box;
+    }
+    .head2{
+      position:absolute;
+      left:865px;
+      top:170px;
+      font-size: 20px;
+      font-family:sans-serif;
+    }
+    .head1{
+      position:absolute;
+      left:860px;
+      top:110px;
+      font-size: 40px;
+      font-family:sans-serif;
+    }
+    .img2{
+      position : absolute;
+      left:285px;
+      top :225px;
+      max-width: 38%;
+      height: auto;
+    }
+    .loginbutton{
+      position: absolute;
+      left:1230px;
+      top:70px;
+      color:white;
+      background-color: rgb(69,102,178);
+      pointer : cursor;
+    }
+    .align2{
+      position: absolute;
+      left:850px;
+      top:25px;
+      color: white;
+    }
+    .align3{
+      position: absolute;
+      left:1050px;
+      top:25px;
+      color: white;
+    }
+    .align1{
+      position: absolute;
+      left:850px;
+      top:70px;
+      font-family:sans-serif;
+    }
+      .background{
+        background-color : rgb(69,102,178) ;
+       height : 90px;
+       padding-top: -00px;
+      }
+      .midsegment{
+        background-color: rgb(233,234,243);
+        height : 600px;
+      }
+      .align{
+        text-align: centre;
+        font: klavika;
+        position: absolute;
+        left:310px;
+        top:150px;
+        font-size: 20px;
+        font-family:sans-serif;
+
+      }
+      .alignn
+      {
+        text-align: centre;
+        font: klavika;
+        position: absolute;
+        left:310px;
+        top:170px;
+        font-size: 20px;
+        font-family:sans-serif;
+      }
+      .align4{
+        position: absolute;
+        left:1050px;
+        top:70px;
+        color: white;
+      }
+      .img{
+        position: absolute;
+        left:200px;
+      }
+      .forgotpass{
+        position: absolute;
+        left:1050px;
+        top:90px;
+        color:rgb(138,166,233) ;
+        font-size: 15px;
+        font-weight: 50px;
+
+      }
+      .c1{
+        position: absolute;
+        left:865px;
+        top:470px;  font-family:sans-serif;
+      }
+      .c2{
+        position: absolute;
+        left:950px;
+        top:470px;  font-family:sans-serif;
+      }
+      .c3{
+        position: absolute;
+        left:1020px;
+        top:470px;  font-family:sans-serif;
+      }
+      .p1{
+        position: absolute;
+        left:865px;
+        top:500px;  font-family:sans-serif;
+        font-size:10px;
+      }
+      .signup
+      {
+        position: absolute;
+        left:860px;
+        top:550px;
+        color:white;
+        background-color: green;
+        pointer : cursor;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        width: 150px;
+        height:50px;
+        border-radius: 8px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class ="background" style :"height:50px" >
+      <p class="align2">Email or phone</p>
+      <p class="align3">Password</p>
+      <a href="#" class="forgotpass"> Forgotten account?</a>
+      <button type="submit" class ="loginbutton">Log In</button>
+      <input class ="align1" type="text">
+      <input class="align4" type="text">
+    <img class ="img" src="C:\Users\Acer\Desktop/aa.png " style :"height:50px "">
+</div >
+<div class ="midsegment" style :"height : 1000px ; background-color:rgb(233,234,243)">
+  <h1 class="head1"><strong>Create an account</strong></h1><br>
+  <p class="head2">It's quick and easy.</p>
+<p  class ="align" ><bd> <strong>Facebook helps you connect and share with the</strong></bd>  </p><br>
+<br>
+<p class ="alignn"> <bd><strong>people in your life<strong></bd></p>
+  <img class="img2" src="C:\Users\Acer\Desktop\fbimg.img">
+  <input type="text" placeholder="First name" class="name1" size=50>
+    <input type="text" placeholder="Surname" class="name2" size=50>
+      <input type="text" placeholder="Mobile number or email address" class="name3" size=50>
+        <input type="text" placeholder="New password" class="name4" size=50>
+        <form class ="date1" action="/action_page.php">
+  Birthday:<br> <input type="date" name="bday">
+  <input type="submit">
+</form>
+  <p class="gend">Gender</p>
+  <label class="c1"><input  type="radio" name="gender" > Female</label>
+  <label class="c2"><input  type="radio" name="gender"> Male</label>
+    <label class="c3"><input type="radio" name="gender"> Custom</label>
+    <p class="p1">By clicking Sign Up, you agree to our <a heref="#">Terms, Data Policy </a>and Cookie Policy. <br> You may receive SMS notifications from us and <br>can opt out at any time.</p>
+<button type="submit" class ="signup">Sign up</button>
+</div>
+</div class="div3">
+<p class="c4">
+  English (UK)  ?????? ???? ?????? ?????? ????? ??????? ????? ????? ?????? ??????</div>
+</body>
+</html>
